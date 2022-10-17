@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { useState } from 'react';
 import axios from 'axios';
 import { clothesDummy } from './clothesDummy';
-import { getByPlaceholderText } from '@testing-library/react';
 
 function App() {
   const BASE_URL = 'https://api.openweathermap.org/data/2.5';
@@ -40,7 +39,7 @@ function App() {
       <div className='weather-box'>
         <input
           type='text'
-          placeholder='도시 이름을 영어로 입력해주세요 😊'
+          placeholder='도시 이름을 영어로 입력하고 Enter를 눌러주세요 😊'
           value={location}
           onChange={(e) => setLocation(e.target.value)}
           onKeyDown={searchWeather}
@@ -99,7 +98,7 @@ const WeatherBox = styled.div`
 
     input {
       font-size: 20px;
-      width: 370px;
+      width: 500px;
       padding: 16px;
       border: 1px solid black;
       border-radius: 8px;
