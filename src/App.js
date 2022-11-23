@@ -90,19 +90,35 @@ const WeatherBox = styled.div`
   justify-content: center;
   align-items: center;
 
+  h1 {
+    font-size: 2em;
+  }
+
+  @media screen and (max-width: 48em) {
+    font-size: 0.9rem;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
   .weather-box {
-    margin-top: 30px;
+    margin-top: 1.875em;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     input {
-      font-size: 20px;
-      width: 500px;
-      padding: 16px;
+      font-size: 1.25rem;
+      width: 25em;
+      padding: 0.8em;
       border: 1px solid black;
-      border-radius: 8px;
+      border-radius: 0.4em;
       margin-bottom: 1.5em;
+
+      @media screen and (max-width: 48em) {
+        font-size: 0.75rem;
+      }
     }
   }
 
@@ -110,54 +126,62 @@ const WeatherBox = styled.div`
     display: flex;
     align-items: center;
     width: 100%;
+
+    @media screen and (max-width: 48em) {
+      flex-direction: column;
+    }
   }
 `;
 
 const Box = styled.div`
-  padding: 20px;
+  padding: 1.25em;
   border: 1px solid black;
-  border-radius: 8px;
+  border-radius: 0.5em;
   text-align: center;
 `;
 
 const ResultBox = styled.div`
-  margin-right: 30px;
+  margin-right: 1.875em;
   /* position: relative; */
+
+  @media screen and (max-width: 48em) {
+    margin-right: 0;
+  }
 
   .temp-box {
     border: 1px solid black;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 auto 20px;
+    margin: 0 auto 1.25em;
   }
 
   .city {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
   }
 
   .temperature {
     color: dodgerblue;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .sky {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .rain-message {
     /* position: absolute;
     top: 15%;
     left: -140%; */
-    width: 316px;
+    width: 19.75em;
     background-color: dodgerblue;
     color: white;
-    padding: 20px;
+    padding: 1.25em;
   }
 `;
 
@@ -167,7 +191,7 @@ const ClothesBox = styled(Box)`
   justify-content: center;
 
   .clothes-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 1em;
   }
 
