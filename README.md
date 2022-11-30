@@ -20,6 +20,8 @@ OpenWeatherMap의 open API를 이용해, 도시 이름을 입력하면 현재 �
 
 ## 화면 미리보기
 
+### PC 등 큰 화면 예시
+
 ![image](https://user-images.githubusercontent.com/90481975/196172661-eb0b8742-2b10-423d-a7e7-e2e84e581801.png)
 초기 화면입니다.
 
@@ -28,6 +30,26 @@ OpenWeatherMap의 open API를 이용해, 도시 이름을 입력하면 현재 �
 
 ![image](https://user-images.githubusercontent.com/90481975/196172910-c1673f6b-5004-45ba-a0c5-4df9d43dd7a4.png)
 현재 비가 온다면, 비와 관련한 메시지를 추가로 보여줍니다.
+
+![image](https://user-images.githubusercontent.com/90481975/204799150-b91dae56-d9a9-4491-98b2-533c9c8600c0.png)
+404 Not Found 에러 발생 메시지입니다.
+
+![image](https://user-images.githubusercontent.com/90481975/204799310-b409748f-12d3-4b75-b498-aca142e627ce.png)
+401 Unauthorized 에러 발생 화면입니다. url에 '/error'를 추가해 페이지를 확인했습니다.
+
+### 모바일 등 작은 화면 예시
+
+![image](https://user-images.githubusercontent.com/90481975/204798371-9e195fd6-c321-4542-8efc-54bceb22973f.png)
+초기 화면입니다.
+
+![image](https://user-images.githubusercontent.com/90481975/204798695-abc02b77-064b-43f9-986e-a6376b395e56.png)
+검색 결과 화면입니다. 작은 화면에 맞게 배치를 바꾸었습니다.
+
+![image](https://user-images.githubusercontent.com/90481975/204798528-fae632e4-3c8a-49fd-be4a-7379114d8632.png)
+404 Not Found 에러 발생 메시지입니다.
+
+![image](https://user-images.githubusercontent.com/90481975/204798808-cc2a84b6-5f6a-4bc3-a536-e22d0f35b714.png)
+401 Unauthorized 에러 발생 화면입니다.
 
 ## 📍 업데이트 내역
 
