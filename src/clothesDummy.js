@@ -59,7 +59,7 @@ export const clothesDummy = [
   },
   {
     min: 28,
-    max: 50,
+    max: 100,
     clothes: ['반팔 티셔츠', '민소매', '반바지', '짧은 바지', '얇은 원피스'],
   },
 ];
